@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: datahues
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/datahues/datahues-{{ version }}.tar.gz
-  sha256: 35d50c8aaef8d4f0552f9769e61ebeec38b4b61fc998f56f443f29b694a34d9d
+  sha256: eddfe625b3337eb0824200cd2ca3c9fed3ddf575294d26d31253ba6466ed537c
 
 build:
   noarch: python
